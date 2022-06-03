@@ -1,0 +1,28 @@
+{
+  "name": "nodejs_crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antor-094/NodeJS_CRUD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Antor-094/NodeJS_CRUD/issues"
+  },
+  "homepage": "https://github.com/Antor-094/NodeJS_CRUD#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.2",
+    "nodemon": "^2.0.15"
+  }
+}
